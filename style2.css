@@ -125,7 +125,7 @@ body{
 
 #bnenviar{
 
-    margin-top: 20px;
+    margin-top: 5px;
     padding: 12px;
     background: blue;
     color: white;
@@ -145,24 +145,7 @@ body{
 
 }
 
-#besqueceu{
-
-    margin-top: -10px;
-    margin-left: 0px;
-    border-color: #0015FF;
-    padding: 5px;
-    width: 200px;
-    background: none;
-    color: rgb(39, 39, 39);
-    border: 1px solid blue;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: 0.8s;
-
-
-}
-
-.text-login {
+.rodape {
     display: flex;                 /* Ativa o Flexbox */
     justify-content: center;       /* Centraliza os links horizontalmente */
     align-items: center;           /* Centraliza verticalmente (caso tenham alturas diferentes) */
