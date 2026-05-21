@@ -1,0 +1,121 @@
+Style.css
+
+*{ 
+    margin: 0;
+    padding: 0;
+    border-sizing: border-box;
+   
+
+}
+h1{
+    color: greenyellow;
+    font-size: 40px;
+    font-style: italic;
+}
+
+#exemplo-background {
+  background-image: url(./Captura\ de\ tela\ 2026-05-20\ 225539.png);
+  background-size: cover; /* Faz a imagem cobrir todo o espaço disponível */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  height: 1080px; /* É importante definir uma altura para que o fundo apareça */
+}
+
+
+body{ 
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh ;
+
+    
+}
+
+.textlabel{
+
+    margin: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #3A3939;
+
+}
+.campotexto{
+
+    padding: 15px;
+    border: 1px solid blue;
+    border-radius: 50px;
+    outline: none;
+    transition: 0.33s;
+
+}
+
+.campotext:focus{
+
+    border-color: blue;
+    box-shadow: 0,0,5px;
+
+}
+ 
+.form{
+
+    background: white;
+    height: 450px;
+    width: 350px;
+    padding: 80px;
+    border-radius: 37px;
+    border: 20px solid rgb(38, 38, 38);
+    box-shadow: 80px 80px 80px #000001;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#tituloform{
+
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: #0015FF;
+
+}
+#bnenviar{
+
+    margin-top: 20px;
+    padding: 12px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.8s;
+
+}
+
+#bnenviar:hover {
+
+    background: rgb(0, 0, 183)
+
+
+
+}
+
+#besqueceu{
+
+    margin-top: -10px;
+    margin-left: 0px;
+    border-color: #0015FF;
+    padding: 5px;
+    width: 200px;
+    background: none;
+    color: rgb(39, 39, 39);
+    border: 1px solid blue;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.8s;
+
+
+}

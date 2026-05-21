@@ -1,39 +1,42 @@
 <html>
     <head>
         <title> Cursos Online </title>
+        <link rel="stylesheet" href="./style.css">
     </head>
 
-    <body style="background-color: rgb(31, 31, 31); text-align: center;">
-        <h1 style="color: yellow;"> Aprenda tudo em um unico lugar </h1>
-        <h2 style="color: yellow;"> Aprenda tudo em um unico lugar </h2>
-        <h3 style="color: yellow;"> Aprenda tudo em um unico lugar </h3>
-        <h4 style="color: yellow;"> Aprenda tudo em um unico lugar </h4>
-        <h5 style="color: yellow;"> Aprenda tudo em um unico lugar </h5>
-        <h6 style="color: yellow;"> Aprenda tudo em um unico lugar </h6>
+    <body id="exemplo-background">
+
+        <!--
+        <h1> Aprenda tudo em um unico lugar </h1>
+        <h2> Aprenda tudo em um unico lugar </h2>
+        <h3> Aprenda tudo em um unico lugar </h3>
+        <h4> Aprenda tudo em um unico lugar </h4>
+        <h5> Aprenda tudo em um unico lugar </h5>
+        <h6> Aprenda tudo em um unico lugar </h6>
 
         <img src="./15-inch-MacBook-Air-wallpaper-1.png" alt="Imagem Background Macbook" width="300" height="200">
 
 
-        <p style="color: white; text-align: center";> Curso Completo sobre negócios </p>
-        <form action= "./sucesso.html">
-            <h1 style= "color:white"> CASASTRO </h1>
-            <label style="color: white;"> Nome: </label>
-            <input type="text" name="Nome">
+        <p style="color: white;"> Curso Completo sobre negócios </p>
+        -->
+
+        <form action= "./sucesso.html" class="form">
+
+            <h2 id="tituloform";> Faça login para continuar </h2>
+            <label class="textlabel"> Email: </label>
+            <input class="campotexto" type="Email" name="Email" placeholder="Seu E-mail">
             <br>
-            <label style="color: white;"> Email: </label>
-            <input type="Email" name="Email">
+            <label class="textlabel"> Senha: </label>
+            <input class="campotexto" type="password" name="Senha" placeholder="**********">
             <br>
-            <label style="color: white;"> Senha: </label>
-            <input type="password" name="Senha">
-            <br>
-            <button type="submit"> Enviar 
-            </button>
+            <button id="besqueceu" type="button"> Esqueceu sua senha? </button>
+            <button id="bnenviar" type="submit"> Entrar </button>
 
         </form>
     </body>
-
+<!--
     <footer> 
-        <p style="color: white"> Sobre nós </p>
-    </footer>
-    
+        <p style="color: rgb(0, 0, 0)"> Sobre nós </p>
+    </footer>       
+ -->
 </html>
