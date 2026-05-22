@@ -1,0 +1,23 @@
+
+#tituloform{
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 40px;
+    
+}
+#textos{
+    color: #ffffff;
+}
+h1{
+    font-style: italic;
+   
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 70px;
+}
+#Background{
+    background-image: url(./Aula-1/Background.png);
+}
