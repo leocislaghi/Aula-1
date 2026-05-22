@@ -14,7 +14,7 @@ h1{
 }
 
 #exemplo-background {
-  background-image: url(./Background.png);
+  background-image: url(./../img/background.png);
   background-size: cover; /* Faz a imagem cobrir todo o espaço disponível */
   height: 900px; /* definir uma altura */
 }

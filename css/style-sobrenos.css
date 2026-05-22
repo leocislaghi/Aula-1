@@ -19,5 +19,7 @@ body{
     margin: 70px;
 }
 #Background{
-    background-image: url(./Aula-1/Background.png);
+    background-image: url(./../img/background.png);
+    background-size: cover; /* Faz a imagem cobrir todo o espaço disponível */
+    height: 900px; /* definir uma altura */
 }
